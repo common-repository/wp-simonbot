@@ -1,0 +1,185 @@
+/**
+ * CSS for wp-simonbot
+ *
+ * @package wp-simonbot
+ * @author Simonbot Dev Team
+ * @copyright Copyright (c) 2013, Chateauclos SARL
+ * @licence GPL2
+ * @link https://simonbot.com
+ * @since Version 1.0
+ *
+ * Copyright (c) 2013, Chateauclos SARL (email : dev@simonbot.com)
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License, version 2, as 
+ * published by the Free Software Foundation.
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+ */
+
+/**
+ * global
+* */
+div.simonbot {width: 98%; margin-top: 10px;}
+div.simonbot iframe {overflow: hidden;} 
+div.hero-unit {
+  padding: 30px;
+  margin-bottom: 30px;
+  background-color: #EEE;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+/**
+ * watchers list
+* */
+
+table.watchers th.watcher {width: 30%}
+table.watchers th.last_check {width: 20%}
+table.watchers th.actions {width: 50%}
+table.watchers td.actions ul li {
+  float: left;
+  margin-right: 2%;
+}
+
+table.watchers_setup th.checkbox {width: 5%;}
+table.watchers_setup th.title {width: 30%;}
+table.watchers_setup th.url {width: 40%;}
+table.watchers_setup th.location {width: 35%;}
+
+/**
+ * Authentication page
+ */
+
+.simonbot table.login {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.simonbot table.login td {
+  width: 50%;
+  padding: 20px;
+}
+
+.simonbot table.login h3 {margin-bottom: 20px;}
+.simonbot table.login form {margin-left: 0px;}
+.simonbot .login .input {margin-bottom: 0;}
+.simonbot .login p {margin-bottom: 0;}
+.simonbot .login p.submit {margin-top: 24px;}
+
+/**
+ * top menu
+ */
+div.top_menu ul li {
+  float: left;
+  margin-right: 20px;
+}
+
+div.top_menu ul li a.active { background: lightgrey;}
+
+div.top_menu ul { float: right;}
+div.top_menu {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+div.simonbot a.add-new-h2 {
+  margin-top: 13px;
+  float: left;
+  margin-left: 15px;
+}
+
+/**
+ * Setup page
+ */
+
+fieldset#watcher_urls legend {
+  margin-bottom: 5px;
+}
+
+/**
+ * Sprites
+ */
+
+.simonbot-auth, .simonbot-dashboard, .simonbot-happy, .simonbot-lt, .simonbot-nfe, .simonbot-r, .simonbot-settings, .simonbot-w, .simonbot-watchers, .simonbot-yslow, .simonbot-logo, .simonbot-sad{
+  background:   url(../images/sprites.png) no-repeat;
+  float: left;
+  display: block;
+  margin-right: 5px;
+  width: 32px;
+  height: 32px;
+}
+
+.simonbot-auth{
+  background-position: -349px -5px ;
+  width: 27px;
+  height: 25px;
+}
+
+.simonbot-happy, .simonbot-dashboard{
+  background-position: -1px -37px ;
+  width: 68px;
+  height: 46px;
+}
+
+.simonbot-lt{
+      background-position: -246px -2px ;
+      width: 26px;
+      height: 30px;
+    }
+
+    .simonbot-nfe{
+      background-position: -298px -5px ;
+      width: 26px;
+      height:       26px;
+    }
+
+    .simonbot-r{
+      background-position: -201px -3px ;
+      width: 24px;
+      height: 24px;
+    }
+
+    .simonbot-settings{
+      background-position: -144px 0;
+      width: 32px;
+      height: 36px;
+    }
+
+    .simonbot-w{
+      background-position: -99px -3px ;
+      width: 27px;
+      height: 28px;
+    }
+
+    .simonbot-watchers{
+      background-position: -46px -5px ;
+      width: 35px;
+      height: 25px;
+    }
+
+    .simonbot-yslow{
+      background-position: 0 -3px ;
+      width: 23px;
+      height: 28px;
+    }
+
+    .simonbot-logo{
+      background-position: -228px -51px ;
+      width: 146px;
+      height: 31px;
+    }
+
+    .simonbot-sad{
+      background-position: -75px -38px ;
+      width: 6px6px;
+      height: 45px;
+    }
